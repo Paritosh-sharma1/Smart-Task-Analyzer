@@ -4,15 +4,15 @@ A full-stack task management application that uses a weighted scoring algorithm 
 
 📋 Table of Contents
 
-Setup Instructions
+1. Setup Instructions
 
-Algorithm Explanation
+2. Algorithm Explanation
 
-Design Decisions & Trade-offs
+3. Design Decisions & Trade-offs
 
-Bonus Challenges
+4. Bonus Challenges
 
-Future Improvements
+5. Future Improvements
 
 🛠 Setup Instructions
 
@@ -27,6 +27,7 @@ Git installed
 1. Clone the Repository
 
 git clone https://github.com/Paritosh-sharma1/Smart-Task-Analyzer.git
+
 cd task_manager
 
 2. Install Dependencies
