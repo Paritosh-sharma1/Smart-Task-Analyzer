@@ -1,0 +1,116 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+  color: #333;
+}
+
+.form-section,
+.output-section {
+  margin-bottom: 30px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.danger-btn {
+  background-color: #dc3545;
+}
+
+.danger-btn:hover {
+  background-color: #c82333;
+}
+
+.analyze-btn {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.task-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border-left: 5px solid #ccc;
+}
+
+.priority-high {
+  border-left-color: #dc3545;
+  background-color: #fff5f5;
+}
+
+.priority-medium {
+  border-left-color: #ffc107;
+  background-color: #fffbf0;
+}
+
+.priority-low {
+  border-left-color: #28a745;
+  background-color: #f0fff4;
+}
+
+.score-badge {
+  float: right;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.details {
+  color: #666;
+  font-size: 0.9em;
+}
+
+.explanation {
+  margin-top: 5px;
+  font-style: italic;
+  color: #0056b3;
+}
+
+.error {
+  color: red;
+  display: none;
+}
